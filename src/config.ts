@@ -82,39 +82,16 @@ hi, i'm hoang khang lê, but you can call me kei. i'm 23 years old and currently
 in my free time, i enjoy collecting perfumes and hitting the gym. <br/><br/>
 i'm also a huge fan of music, especially artists like frank ocean and joji.`, // Markdown is supported
     image_l: {
-      url: "/demo-1.jpg",
+      url: "/yourname.jpg",
       alt: "Left Picture",
     },
     image_r: {
-      url: "/demo-1.jpg",
+      url: "/frank.avif",
       alt: "Right Picture",
     },
   },
-  work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
-    items: [
-      {
-        title: "Software Developer",
-        company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
-        },
-        date: "2021 - Present",
-      },
-      {
-        title: "Software Developer",
-        company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
-        },
-        date: "2019 - 2021",
-      },
-    ],
-  },
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: `i'm always interested in learning new things. feel free to connect.`, // Markdown is supported
     links: socialLinks,
   },
 };
@@ -126,28 +103,14 @@ export const projectsPageContent: ProjectPageContent = {
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "all the projects worth mentioning.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "No History Tracker",
+      description:
+        "Extension to disable the tracking of URLs of browser histories for Firefox. ",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://addons.mozilla.org/en-GB/firefox/addon/no-history-tracker/",
     },
   ],
 };

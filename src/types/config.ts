@@ -59,10 +59,6 @@ export type AboutPageContent = {
       alt: string;
     };
   };
-  work: {
-    description: string;
-    items: ResumeItem[];
-  };
   connect: {
     description: string;
     links: SocialLink[];
@@ -72,7 +68,6 @@ export type AboutPageContent = {
 export type Project = {
   title: string;
   description: string;
-  image: string;
   year: string;
   url: string;
 };
