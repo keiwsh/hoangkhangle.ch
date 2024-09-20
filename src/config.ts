@@ -9,35 +9,35 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Hoang Khang 'Kei' Lê",
-  logo: "/logo.webp",
+  name: "hoang khang 'kei' lê",
+  logo: "/logo.png",
   email: "hoang-khang.le@pm.me",
 };
 
 export const navBarLinks: NavBarLink[] = [
   {
-    title: "Home",
+    title: "home",
     url: "/",
   },
   {
-    title: "About",
+    title: "about",
     url: "/about",
   },
   {
-    title: "Projects",
+    title: "projects",
     url: "/projects",
   },
 ];
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "GitHub",
+    title: "github",
     url: "https://github.com/keiwsh",
     icon: "mdi:github",
     external: true,
   },
   {
-    title: "Mail",
+    title: "mail",
     url: "mailto:hoang-khang.le@pm.me",
     icon: "mdi:email",
   },
@@ -46,23 +46,22 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "11Tim Witzdam",
+    title: "kei | hoang khang lê",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
-  description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+  role: "it-student",
+  description: "hey! i'm kei - student from switzerland.",
   socialLinks: socialLinks,
   links: [
     {
-      title: "My Projects",
-      url: "/projects",
+      title: "about me",
+      url: "/about",
     },
     {
-      title: "About Me",
-      url: "/about",
+      title: "my projects",
+      url: "/projects",
     },
   ],
 };
@@ -70,18 +69,18 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "about | kei",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
+  subtitle: "03.02.2001",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+hi, i'm hoang khang lê, but you can call me kei. i'm 23 years old and currently an it student.
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+in my free time, i enjoy collecting perfumes and hitting the gym. <br/><br/>
+i'm also a huge fan of music, especially artists like frank ocean and joji.`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
