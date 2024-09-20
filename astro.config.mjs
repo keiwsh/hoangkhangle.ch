@@ -5,8 +5,7 @@ import { remarkReadingTime } from "./remark-reading-time.mjs";
 import node from "@astrojs/node";
 
 export default defineConfig({
-  site: "https://keiwsh.github.io", // Your GitHub Pages base URL
-  base: "/hoangkhangle.ch/", // The repository name
+  site: "https://hoangkhangle.com", // Your GitHub Pages base URL// The repository name
   integrations: [tailwind(), icon()],
   output: "static",
   adapter: node({
