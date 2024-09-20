@@ -9,9 +9,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
+  name: "Hoang Khang 'Kei' Lê",
   logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  email: "hoang-khang.le@pm.me",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -27,22 +27,18 @@ export const navBarLinks: NavBarLink[] = [
     title: "Projects",
     url: "/projects",
   },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
 ];
 
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/keiwsh",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:hoang-khang.le@pm.me",
     icon: "mdi:email",
   },
 ];
@@ -50,7 +46,7 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "11Tim Witzdam",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
