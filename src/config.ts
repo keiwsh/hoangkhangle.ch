@@ -99,7 +99,7 @@ i'm also a huge fan of music, especially artists like frank ocean and joji.`, //
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "projects | kei",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
@@ -118,7 +118,7 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
+    title: "blog | kei",
     description: "Thoughts, stories and ideas.",
     image: identity.logo,
   },
