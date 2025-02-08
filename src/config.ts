@@ -106,6 +106,12 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "all the projects worth mentioning.",
   projects: [
     {
+      title: "Bill Splitter",
+      description: "A simple app for splitting expenses among friends.",
+      year: "2025",
+      url: "https://bill-splitter.hoangkhangle.ch",
+    },
+    {
       title: "No History Tracker",
       description:
         "Extension to disable the tracking of URLs of browser histories for Firefox. ",
