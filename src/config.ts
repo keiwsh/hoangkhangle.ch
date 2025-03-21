@@ -38,7 +38,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     title: "mail",
-    url: "mailto:hoang-khang.le@pm.me",
+    url: "mailto:dev@hoangkhangle.ch",
     icon: "mdi:email",
   },
 ];
@@ -51,7 +51,8 @@ export const homePageContent: HomePageContent = {
     image: identity.logo,
   },
   role: "it-student",
-  description: "hey! i'm kei - student from switzerland.",
+  description:
+    "hey! i'm kei - student from switzerland. free-time coder and aspiring paramedic.",
   socialLinks: socialLinks,
   links: [
     {
@@ -75,7 +76,7 @@ export const aboutPageContent: AboutPageContent = {
   subtitle: "03.02.2001",
   about: {
     description: `
-hi, i'm hoang khang lê, but you can call me kei. i'm 24 years old.
+hi! i'm hoang khang lê, but you can call me kei. i'm 24 years old.
 <br/><br/>
 in my free time, i enjoy collecting perfumes and hitting the gym. <br/><br/>
 i'm also a huge fan of music, especially artists like frank ocean and joji.`, // Markdown is supported
