@@ -47,8 +47,7 @@ export const socialLinks: SocialLink[] = [
 export const homePageContent: HomePageContent = {
   seo: {
     title: "kei | hoang khang lê",
-    description:
-      "Full time student from Germany who loves building cool things using code.",
+    description: "student that loves coding.",
     image: identity.logo,
   },
   role: "it-student",
@@ -70,14 +69,13 @@ export const homePageContent: HomePageContent = {
 export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "about | kei",
-    description:
-      "Full time student from Germany who loves building cool things using code.",
+    description: "student that loves coding.",
     image: identity.logo,
   },
   subtitle: "03.02.2001",
   about: {
     description: `
-hi, i'm hoang khang lê, but you can call me kei. i'm 23 years old and currently an it student.
+hi, i'm hoang khang lê, but you can call me kei. i'm 24 years old.
 <br/><br/>
 in my free time, i enjoy collecting perfumes and hitting the gym. <br/><br/>
 i'm also a huge fan of music, especially artists like frank ocean and joji.`, // Markdown is supported
